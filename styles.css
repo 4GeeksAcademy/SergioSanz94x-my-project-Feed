@@ -1,0 +1,89 @@
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#HOME {
+    background-color:rgb(20, 116, 122);
+    width: 100%;
+    height: auto;
+ }
+#HOME .container {
+ width: 100%;
+ height: auto;
+}
+#HOME .container header {
+width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #808080;
+}
+#HOME .container header .title {
+    width: 500px;
+    margin: 0% auto;
+    text-transform: capitalize;
+    }
+    #HOME .container .contenido {
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+    }
+.post {
+width: 500px;
+margin: 20px auto;
+}
+.post .post-header {
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0% 10px;
+box-sizing: border-box;
+}
+.post .post-body {
+width: 100%;
+height: auto;
+overflow: hidden;
+background-color: rgb(224, 224, 17);
+}
+.post .post-body img {
+width: 100%;
+height: auto;
+object-fit: cover;
+object-position: center;
+}
+.post .post-footer {
+width: 100%;
+height: auto;
+padding: 10px 10px;
+box-sizing: border-box;
+background-color: azure;
+}
+.post .post-footer p {
+    text-align: justify;
+}
+.post .post-header h2 {
+    background-color: beige;
+    text-transform: capitalize;
+}
+.post .post-header span  {
+    background-image: url(https://img.freepik.com/vector-gratis/plantilla-calendario-2023-dibujada-mano-espanol_23-2149689851.jpg?semt=ais_hybrid&w=740);}
+
+h3 {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+h3:hover  {
+    background-color: green;
+    color: blue;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
